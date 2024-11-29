@@ -9,6 +9,7 @@ import {
 import dayjs from "dayjs";
 
 export default class Log {
+    
     constructor() {
         this.store = useStore();
         this.format = "YYYY-MM-DD";
